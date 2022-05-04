@@ -1,28 +1,29 @@
 <html>
     <head>
+       <link rel="stylesheet" href="css/styles.css"> 
     </head>
         <body>
             <header>
                 <nav id="navbar">
                     <header>The World of JS<header>
-                    <a href="#introduction">Introduction</a>
-                    <a href="#what_you_should_know">What You Should Know</a>
-                    <a href="javascript_and_java">Javascript and Java</a>
-                    <a href="hello_world">Hello World</a>
-                    <a href="variables">Variables</a>
-                    <a href="declaring_variables">Declaring Variables</a>
+                    <a href="#introduction" class="nav-link">Introduction</a>
+                    <a href="#what_you_should_know" class="nav-link">What You Should Know</a>
+                    <a href="javascript_and_java" class="nav-link">Javascript and Java</a>
+                    <a href="hello_world" class="nav-link">Hello World</a>
+                    <a href="variables" class="nav-link">Variables</a>
+                    <a href="declaring_variables" class="nav-link">Declaring Variables</a>
                 </nav>
             </header>
             <main id="main-doc">
 
-                <section class=".main-section" id="introduction">
-                    <h2>Introduction</h2>
+                <section class="main-section" id="introduction">
+                    <header>Introduction</header>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Incidunt, aut?</p>
                 </section>
 
-                <section class=".main-section" id="what_you_should_know">
-                    <h2>What You Should Know</h2>
+                <section class="main-section" id="what_you_should_know">
+                    <header>What You Should Know</header>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Corporis inventore officia iste voluptatum perspiciatis id?</p>
@@ -36,8 +37,8 @@
                 </section>
                     
 
-                <section class=".main-section" id="javascript_and_java">
-                    <h2>JavaScript and Java</h2>
+                <section class="main-section" id="javascript_and_java">
+                    <header>JavaScript and Java</header>
                     <p>Lorem ipsum dolor sit amet consectetur, 
                         adipisicing elit. Dolor, atque.</p>
                     <ul>
@@ -51,31 +52,31 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </section>
                     
-                <section class=".main-section" id="hello_world">
-                    <h2>Hello World</h2>
+                <section class="main-section" id="hello_world">
+                    <header>Hello World</header>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                          Delectus, eos aliquam! Dolorum, repellendus? Quasi, accusantium!</p>
                          <code>function greetMe(yourName) { alert("Hello " + yourName); }
                             greetMe("World");</code>
                 </section>
                     
-                <section class=".main-section" id="variables">
-                    <h2>Variable</h2>
+                <section class="main-section" id="variables">
+                    <header>Variable</header>
                     <p>Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In, distinctio!</p>
                         <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
                             defined</code>
                 </section>
 
-                <section class=".main-section" id="declaring_variables">
-                    <h2>Declaring Variables</h2>
+                <section class="main-section" id="declaring_variables">
+                    <header>Declaring Variables</header>
                     <p>Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. In, distinctio!</p>
                         <code>var x = 42.</code>
                         <code>x = 42.</code>
                         <code>let y = 13.</code>
                 </section>
-
             </main>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         </body>
 </html>
